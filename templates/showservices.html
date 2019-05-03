@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="container">
+{%for service in services %}
+NAME:
+{{service.name}}<br>
+CONTACT:
+{{service.contact}}<br>
+EMAIL:
+{{service.email}}<br>
+<img src="/static/upload_files/{{service.image}}" alt="{{service.name}}" style="width:600px;height:400px;"><br>
+<a href="{{url_for('bookservices',service_id=service.id)}}" class="btn btn-primary">Book</a><br><hr>
+
+{%endfor%}
+
+</div>
+{% endblock %}
