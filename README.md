@@ -14,7 +14,7 @@ This is web based chating application.this project based module SocketIO.
 - Python
 - HTML
 - CSS
-- jquery
+- java Script
 - Sqlite3 db browser
 - Flask Framework
 
