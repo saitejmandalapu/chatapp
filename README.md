@@ -33,6 +33,9 @@ This is web based chating application.this project based module SocketIO.
 - install sqlalchemy
 - install flask
 ```
+# Execute
+
+## python project.py
 
 
-## Access the application locally using http://localhost:5000
+## Access the application locally using http://localhost:5000. open new tab ( incognito window) and type http://localhost:5000 see the difference.
